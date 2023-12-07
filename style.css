@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Young Serif', serif;
+    overflow: hidden;
+    font-size: ;
+}
+
+.main {
+    padding: 0.5rem;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    border-radius: 1rem;
+    /* background-color:lightblue; */
+    width: 340px;
+    margin-right: 0.5rem;
+}
+
+.main_content {
+    border-radius: 1rem;
+    flex: 1;
+    background-color: #212121;
+    overflow: auto;
+
+}
+
+.music_player {
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
+}
+
+a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    border-radius: 1rem;
+    height: 100px;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.option {
+    display: flex;
+}
+
+.nav-option {
+
+    height: 2.75rem;
+}
+
+.nav-option i {
+    padding: 0.5rem;
+}
+
+.library {
+
+    border-radius: 1rem;
+    margin-top: 20px;
+    height: 100%;
+    background-color: #212121;
+}
+
+.li_option {
+    padding: 10px;
+}
+
+.li_option i {
+    padding-left: 20px;
+}
+
+img {
+    margin-left: 40px;
+}
+
+.li_box {
+
+    margin-top: 15px;
+
+}
+/* this is the EXploar  section */
+.Exploar{
+    margin-top: 6px;
+    border-radius: 10px;
+    margin-left:45% ;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    background-color:#212121;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    float: left;
+}
+.instal{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 30px;
+    margin-left: 20px;
+    float: left;
+    
+}
+
+/* this is the library box */
+.box {
+    margin: 0.75rem o 1.7rem 0;
+    padding: 1rem 1.25rem;
+    height: 10rem;
+    border-radius: 1rem;
+    /* background-color: aqua; */
+    background-color: #232323;
+    background-color: rgb(22, 21, 21);
+}
+
+.box_p1 {
+    font-size: 1rem;
+    font-family: 500;
+
+}
+
+.box_p2 {
+    font-size: 0.75rem;
+}
+
+.bades {
+    width: 150px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 100px;
+}
+
+
+/* this is the the main containt of web page  */
+
+.sticky_nav {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    background-color: #232323;
+    justify-content: space-between;
+}
+.sticky_nav-icon{
+    float: left;
+}
+.sticky_nav-option{
+    float: left;
+    margin-left: 100px;
+    justify-content:space-between ;
+}
+.Exploar{
+    /* width: 150px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 100px; */
+
+}
+
+
+
+/* this is the Recently section */
+
+
+
+
+/* this is the card section  */
+
+
+.cards{
+    width: 250px;
+    height: 300px;
+    float: left;
+    
+
+}
+.card-container{
+    width:210px ;
+    height:270px ;
+    margin-left: 1%;
+    background-color:rgb(22, 21, 21);
+    border-radius: 10px;
+}
+
+.card{
+    float: left;
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+   
+}
+.card-container img{
+    margin-top: 10px;
+    border-radius: 10px;    
+    width: 180px;;
+    height:150px ;
+    margin-left: 10px;
+  
+}
+.card-title{
+    margin-left: 10px;
+}
+.card-infro{
+    margin-top: 0px;
+    margin-left: 10px;
+    color: grey;
+    font-weight: normal;
+}
+.card-container:hover{
+    transition: 1s;
+    color: ;
+    background-color:black;
+    ba
+}
+
+    
+ /* this section is used for player icon  */
+
+
+ .player-icon{
+    width: 20px;
+    height: 20px;
+ }
+
+ .player-control{
+    margin-top: 19px;
+    text-align: center;
+ }
+.range{
+    margin-left:50px;
+    text-align: center;
+}
+/* 
+/* this is the album section */
+.album{
+    margin-top:25px;
+    margin-left:5% ;
+    float: left;
+    width: 20%;
+    height: 50px;
+    /* background-color: aqua;  */
+}
+.album-icon{
+    width:25px;
+    height: 25px;
+
+}
+/* this is the  second player section */
+.player{
+    float: left;
+    width: 50%;
+    height: 50px;
+    /* background-color: azure; */
+}
+.progras-bar{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+/* this is the third section for control icon */
+.controls_icon1{    
+    
+    width: 15px;
+    height: 15px;
+}
